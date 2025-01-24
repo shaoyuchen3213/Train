@@ -7,3 +7,35 @@
 2025-01-24 14:43:25.403 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：454 ms -------------
 2025-01-24 15:44:29.842 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2025-01-24 15:44:29.849 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-01-24 15:44:36.436 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 22556 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-24 15:44:36.439 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-24 15:44:37.165 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a4cc65b9-ff88-3247-ad65-16f5dad4067b
+2025-01-24 15:44:37.616 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-01-24 15:44:37.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-01-24 15:44:37.624 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-24 15:44:37.624 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-24 15:44:37.804 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-24 15:44:37.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1325 ms
+2025-01-24 15:44:38.643 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-01-24 15:44:38.663 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-01-24 15:44:38.810 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.085 seconds (process running for 3.768)
+2025-01-24 15:44:38.812 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
+2025-01-24 15:44:38.813 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
+2025-01-24 15:44:51.767 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-24 15:44:51.767 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-01-24 15:44:51.768 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-01-24 15:44:51.815 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-24 15:44:51.817 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
+2025-01-24 15:44:51.818 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
+2025-01-24 15:44:51.819 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-24 15:44:51.863 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
+2025-01-24 15:44:51.906 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-01-24 15:44:54.135 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@634530f0
+2025-01-24 15:44:54.138 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-01-24 15:44:54.143 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==>  Preparing: select count(*) from member
+2025-01-24 15:44:54.163 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==> Parameters: 
+2025-01-24 15:44:54.403 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==    Columns: count(*)
+2025-01-24 15:44:54.404 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==        Row: 1
+2025-01-24 15:44:54.407 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m <==      Total: 1
+2025-01-24 15:44:54.412 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1
+2025-01-24 15:44:54.413 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：2600 ms -------------
