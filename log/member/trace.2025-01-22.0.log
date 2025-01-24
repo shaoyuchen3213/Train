@@ -1,0 +1,15 @@
+2025-01-22 15:17:35.778 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 3296 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-22 15:17:35.785 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-22 15:17:36.610 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.java.member.config]' package. Please check your configuration.
+2025-01-22 15:17:36.670 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=8de8f747-e595-38c5-a44a-0a88198b4f0d
+2025-01-22 15:17:37.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-01-22 15:17:37.069 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-01-22 15:17:37.070 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-22 15:17:37.070 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-22 15:17:37.159 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-22 15:17:37.159 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1333 ms
+2025-01-22 15:17:37.870 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-01-22 15:17:37.887 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-01-22 15:17:38.026 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 2.841 seconds (process running for 3.421)
+2025-01-22 15:17:38.029 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-22 15:17:38.029 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member/hello

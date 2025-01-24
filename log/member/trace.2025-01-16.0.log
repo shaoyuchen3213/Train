@@ -1,0 +1,171 @@
+2025-01-16 12:24:27.204 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2025-01-16 12:24:27.250 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:27.251 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-01-16 12:24:27.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:27.258 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:27.520 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 10600 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 12:24:27.520 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:24:27.668 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2025-01-16 12:24:27.717 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 12:24:27.718 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:27.718 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 12:24:27.718 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 12:24:27.744 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 12:24:27.745 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 223 ms
+2025-01-16 12:24:27.810 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-01-16 12:24:27.954 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:27.957 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 12:24:28.084 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 0.716 seconds (process running for 92084.275)
+2025-01-16 12:24:28.085 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-01-16 12:24:28.086 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 12:24:28.086 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 12:24:29.410 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-01-16 12:24:29.419 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:29.419 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-01-16 12:24:29.421 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:29.421 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:29.615 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 10600 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 12:24:29.615 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:24:29.750 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2025-01-16 12:24:29.774 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 12:24:29.775 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:29.775 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 12:24:29.775 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 12:24:29.790 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 12:24:29.790 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 173 ms
+2025-01-16 12:24:29.829 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-01-16 12:24:29.941 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:24:29.944 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 12:24:30.050 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 0.564 seconds (process running for 92086.24)
+2025-01-16 12:24:30.050 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-01-16 12:24:30.051 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 12:24:30.051 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 12:40:40.404 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2025-01-16 12:40:40.414 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:40.414 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-01-16 12:40:40.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:40.417 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:40.630 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 10600 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 12:40:40.631 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:40:40.784 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2025-01-16 12:40:40.815 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 12:40:40.815 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:40.816 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 12:40:40.816 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 12:40:40.833 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 12:40:40.833 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 199 ms
+2025-01-16 12:40:40.883 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-01-16 12:40:41.016 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:41.019 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 12:40:41.150 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 0.667 seconds (process running for 93057.341)
+2025-01-16 12:40:41.152 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-01-16 12:40:41.152 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 12:40:41.153 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 12:40:42.488 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)
+2025-01-16 12:40:42.498 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:42.498 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-01-16 12:40:42.500 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:42.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:42.718 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 10600 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 12:40:42.718 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:40:42.855 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2025-01-16 12:40:42.884 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 12:40:42.885 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:42.885 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 12:40:42.885 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 12:40:42.900 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 12:40:42.900 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 179 ms
+2025-01-16 12:40:42.939 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-01-16 12:40:43.064 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:40:43.067 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 12:40:43.182 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 0.618 seconds (process running for 93059.373)
+2025-01-16 12:40:43.183 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-01-16 12:40:43.183 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 12:40:43.184 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 12:42:42.519 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-01-16 12:42:42.528 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:42:42.528 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2025-01-16 12:42:42.530 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:42:42.531 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:42:42.811 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 10600 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 12:42:42.811 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 12:42:42.980 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=48127f96-07f5-3ac5-99c5-e6fe52ea15b1
+2025-01-16 12:42:43.010 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 12:42:43.011 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:42:43.011 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 12:42:43.011 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 12:42:43.026 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 12:42:43.026 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 211 ms
+2025-01-16 12:42:43.077 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2025-01-16 12:42:43.200 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 12:42:43.203 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 12:42:43.311 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 0.702 seconds (process running for 93179.502)
+2025-01-16 12:42:43.311 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2025-01-16 12:42:43.312 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 12:42:43.312 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 13:21:11.404 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 25296 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 13:21:11.406 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 13:21:11.888 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
+2025-01-16 13:21:12.213 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2025-01-16 13:21:12.220 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2025-01-16 13:21:12.220 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 13:21:12.221 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 13:21:12.298 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 13:21:12.298 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 860 ms
+2025-01-16 13:21:12.798 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2025-01-16 13:21:12.811 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2025-01-16 13:21:12.931 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 2.046 seconds (process running for 2.567)
+2025-01-16 13:21:12.934 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 13:21:12.935 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8001/member/hello
+2025-01-16 13:21:45.290 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-16 13:21:45.290 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-01-16 13:21:45.291 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2025-01-16 13:21:45.316 INFO  com.java.train.common.aspect.LogAspect            :48   [32m                  [0;39m ------------- 开始 -------------
+2025-01-16 13:21:45.317 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2025-01-16 13:21:45.317 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-16 13:21:45.317 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-16 13:21:45.345 INFO  com.java.train.common.aspect.LogAspect            :72   [32m                  [0;39m 请求参数: []
+2025-01-16 13:21:45.346 INFO  com.java.train.common.aspect.LogAspect            :84   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-16 13:21:45.346 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m ------------- 结束 耗时：31 ms -------------
+2025-01-16 13:21:45.866 INFO  com.java.train.common.aspect.LogAspect            :48   [32m                  [0;39m ------------- 开始 -------------
+2025-01-16 13:21:45.866 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2025-01-16 13:21:45.867 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-16 13:21:45.867 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-16 13:21:45.868 INFO  com.java.train.common.aspect.LogAspect            :72   [32m                  [0;39m 请求参数: []
+2025-01-16 13:21:45.868 INFO  com.java.train.common.aspect.LogAspect            :84   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-16 13:21:45.868 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2025-01-16 13:21:46.003 INFO  com.java.train.common.aspect.LogAspect            :48   [32m                  [0;39m ------------- 开始 -------------
+2025-01-16 13:21:46.004 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2025-01-16 13:21:46.005 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-16 13:21:46.005 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-16 13:21:46.005 INFO  com.java.train.common.aspect.LogAspect            :72   [32m                  [0;39m 请求参数: []
+2025-01-16 13:21:46.005 INFO  com.java.train.common.aspect.LogAspect            :84   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-16 13:21:46.005 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2025-01-16 13:22:01.860 INFO  com.java.train.common.aspect.LogAspect            :48   [32m                  [0;39m ------------- 开始 -------------
+2025-01-16 13:22:01.860 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2025-01-16 13:22:01.860 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-16 13:22:01.860 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-16 13:22:01.860 INFO  com.java.train.common.aspect.LogAspect            :72   [32m                  [0;39m 请求参数: []
+2025-01-16 13:22:01.861 INFO  com.java.train.common.aspect.LogAspect            :84   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-16 13:22:01.861 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m ------------- 结束 耗时：1 ms -------------
+2025-01-16 13:22:30.018 INFO  com.java.train.common.aspect.LogAspect            :48   [32m                  [0;39m ------------- 开始 -------------
+2025-01-16 13:22:30.019 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m 请求地址: http://localhost:8001/member/hello GET
+2025-01-16 13:22:30.019 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-16 13:22:30.019 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-16 13:22:30.019 INFO  com.java.train.common.aspect.LogAspect            :72   [32m                  [0;39m 请求参数: []
+2025-01-16 13:22:30.020 INFO  com.java.train.common.aspect.LogAspect            :84   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-16 13:22:30.020 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m ------------- 结束 耗时：2 ms -------------
+2025-01-16 14:25:01.249 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 33796 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 14:25:01.252 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 14:25:01.790 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a433b0a0-bd45-38a4-bdb4-a65f344fda18
+2025-01-16 14:25:02.130 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-01-16 14:25:02.136 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-01-16 14:25:02.137 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-16 14:25:02.137 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-16 14:25:02.212 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-16 14:25:02.212 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 924 ms
+2025-01-16 14:25:02.760 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-01-16 14:25:02.776 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-01-16 14:25:02.900 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 2.248 seconds (process running for 2.743)
+2025-01-16 14:25:02.903 INFO  com.java.member.config.MemberApplication          :21   [32m                  [0;39m Success Start!
+2025-01-16 14:25:02.904 INFO  com.java.member.config.MemberApplication          :22   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member/hello

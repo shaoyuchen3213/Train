@@ -1,0 +1,10 @@
+2025-01-21 16:07:50.821 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-21 16:07:50.827 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-01-21 16:07:50.838 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 11 ms
+2025-01-21 16:07:50.885 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-21 16:07:50.886 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://127.0.0.1:8002/member/hello GET
+2025-01-21 16:07:50.888 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.TestController.hello
+2025-01-21 16:07:50.888 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-21 16:07:50.946 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
+2025-01-21 16:07:50.946 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: "Hello 123541233sdsa11222233dsadasdadsa3334"
+2025-01-21 16:07:50.946 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：63 ms -------------

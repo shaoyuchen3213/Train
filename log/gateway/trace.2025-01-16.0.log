@@ -1,0 +1,44 @@
+2025-01-16 16:35:19.662 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-01-16 16:35:19.691 INFO  com.java.gateway.GateApplication                  :51   [32m                  [0;39m Starting GateApplication using Java 17.0.2 with PID 40584 (D:\Java_Project\train\gateway\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 16:35:19.692 INFO  com.java.gateway.GateApplication                  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 16:35:20.283 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=07114535-f3c9-331d-a2e8-7e6c4d28bfb9
+2025-01-16 16:35:20.834 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-01-16 16:35:20.834 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-01-16 16:35:20.834 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-01-16 16:35:20.835 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-01-16 16:35:20.836 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-01-16 16:35:20.836 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-01-16 16:35:20.836 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-01-16 16:35:21.321 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-01-16 16:35:21.584 INFO  com.java.gateway.GateApplication                  :57   [32m                  [0;39m Started GateApplication in 2.424 seconds (process running for 3.041)
+2025-01-16 16:35:21.586 INFO  com.java.gateway.GateApplication                  :20   [32m                  [0;39m Success Start!
+2025-01-16 16:35:21.587 INFO  com.java.gateway.GateApplication                  :21   [32m                  [0;39m Listening on 	http://127.0.0.1:8000
+2025-01-16 16:35:39.467 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-01-16 16:35:39.497 INFO  com.java.gateway.GateApplication                  :51   [32m                  [0;39m Starting GateApplication using Java 17.0.2 with PID 39248 (D:\Java_Project\train\gateway\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-16 16:35:39.497 INFO  com.java.gateway.GateApplication                  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-16 16:35:40.045 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=07114535-f3c9-331d-a2e8-7e6c4d28bfb9
+2025-01-16 16:35:40.663 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2025-01-16 16:35:40.663 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2025-01-16 16:35:40.663 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2025-01-16 16:35:40.663 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2025-01-16 16:35:40.664 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2025-01-16 16:35:40.665 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-01-16 16:35:40.665 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2025-01-16 16:35:40.665 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-01-16 16:35:41.268 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 8000
+2025-01-16 16:35:41.522 INFO  com.java.gateway.GateApplication                  :57   [32m                  [0;39m Started GateApplication in 2.602 seconds (process running for 3.155)
+2025-01-16 16:35:41.524 INFO  com.java.gateway.GateApplication                  :20   [32m                  [0;39m Success Start!
+2025-01-16 16:35:41.525 INFO  com.java.gateway.GateApplication                  :21   [32m                  [0;39m Listening on 	http://127.0.0.1:8000

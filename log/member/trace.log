@@ -1,0 +1,9 @@
+2025-01-24 14:43:24.949 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
+2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
+2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-24 14:43:24.966 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
+2025-01-24 14:43:25.403 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1
+2025-01-24 14:43:25.403 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：454 ms -------------
+2025-01-24 15:44:29.842 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-01-24 15:44:29.849 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
