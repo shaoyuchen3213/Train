@@ -1,41 +1,205 @@
-2025-01-24 14:43:24.949 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
-2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
-2025-01-24 14:43:24.965 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
-2025-01-24 14:43:24.966 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
-2025-01-24 14:43:25.403 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1
-2025-01-24 14:43:25.403 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：454 ms -------------
-2025-01-24 15:44:29.842 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-01-24 15:44:29.849 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-01-24 15:44:36.436 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 22556 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
-2025-01-24 15:44:36.439 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-01-24 15:44:37.165 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a4cc65b9-ff88-3247-ad65-16f5dad4067b
-2025-01-24 15:44:37.616 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
-2025-01-24 15:44:37.623 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
-2025-01-24 15:44:37.624 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-01-24 15:44:37.624 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-01-24 15:44:37.804 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-01-24 15:44:37.805 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1325 ms
-2025-01-24 15:44:38.643 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
-2025-01-24 15:44:38.663 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
-2025-01-24 15:44:38.810 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.085 seconds (process running for 3.768)
-2025-01-24 15:44:38.812 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
-2025-01-24 15:44:38.813 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
-2025-01-24 15:44:51.767 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-01-24 15:44:51.767 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-01-24 15:44:51.768 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-01-24 15:44:51.815 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-01-24 15:44:51.817 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
-2025-01-24 15:44:51.818 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
-2025-01-24 15:44:51.819 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
-2025-01-24 15:44:51.863 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
-2025-01-24 15:44:51.906 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2025-01-24 15:44:54.135 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@634530f0
-2025-01-24 15:44:54.138 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2025-01-24 15:44:54.143 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==>  Preparing: select count(*) from member
-2025-01-24 15:44:54.163 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==> Parameters: 
-2025-01-24 15:44:54.403 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==    Columns: count(*)
-2025-01-24 15:44:54.404 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==        Row: 1
-2025-01-24 15:44:54.407 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m <==      Total: 1
-2025-01-24 15:44:54.412 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1
-2025-01-24 15:44:54.413 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：2600 ms -------------
+2025-01-26 00:08:26.638 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-01-26 00:08:26.644 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-01-26 00:08:31.445 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 29144 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-26 00:08:31.448 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-26 00:08:32.218 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a4cc65b9-ff88-3247-ad65-16f5dad4067b
+2025-01-26 00:08:32.695 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-01-26 00:08:32.703 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-01-26 00:08:32.704 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-26 00:08:32.704 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-26 00:08:32.818 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-26 00:08:32.819 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1323 ms
+2025-01-26 00:08:33.794 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-01-26 00:08:33.814 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-01-26 00:08:33.966 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.245 seconds (process running for 4.066)
+2025-01-26 00:08:33.970 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
+2025-01-26 00:08:33.971 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
+2025-01-26 00:08:59.250 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26 00:08:59.250 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-01-26 00:08:59.251 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-01-26 00:10:55.276 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-26 00:10:55.278 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
+2025-01-26 00:10:55.278 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
+2025-01-26 00:10:55.278 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-26 00:10:55.323 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
+2025-01-26 00:10:55.354 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-01-26 00:10:57.502 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@186357ae
+2025-01-26 00:10:57.505 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-01-26 00:10:57.511 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==>  Preparing: select count(*) from member
+2025-01-26 00:10:57.527 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==> Parameters: 
+2025-01-26 00:10:57.771 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==    Columns: count(*)
+2025-01-26 00:10:57.771 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==        Row: 1
+2025-01-26 00:10:57.773 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m <==      Total: 1
+2025-01-26 00:10:57.779 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1
+2025-01-26 00:10:57.779 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：2504 ms -------------
+2025-01-26 00:11:20.310 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-01-26 00:11:20.315 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-01-26 00:11:24.529 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 52392 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-01-26 00:11:24.532 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-01-26 00:11:25.360 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=a4cc65b9-ff88-3247-ad65-16f5dad4067b
+2025-01-26 00:11:25.894 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-01-26 00:11:25.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-01-26 00:11:25.903 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-01-26 00:11:25.903 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-01-26 00:11:26.002 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-01-26 00:11:26.003 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1424 ms
+2025-01-26 00:11:26.863 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-01-26 00:11:26.882 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-01-26 00:11:27.057 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.215 seconds (process running for 3.842)
+2025-01-26 00:11:27.061 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
+2025-01-26 00:11:27.061 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
+2025-01-26 00:11:33.739 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-26 00:11:33.739 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-01-26 00:11:33.740 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-01-26 00:11:33.778 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-26 00:11:33.779 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/register POST
+2025-01-26 00:11:33.780 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.register
+2025-01-26 00:11:33.780 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-26 00:11:33.813 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: ["1234"]
+2025-01-26 00:11:33.829 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-01-26 00:11:35.852 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3dcbdc4
+2025-01-26 00:11:35.854 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-01-26 00:11:35.860 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2025-01-26 00:11:35.878 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==> Parameters: 1737868293813(Long), 1234(String)
+2025-01-26 00:11:36.318 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m <==    Updates: 1
+2025-01-26 00:11:36.320 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 1737868293813
+2025-01-26 00:11:36.320 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：2543 ms -------------
+2025-01-26 00:11:53.270 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-26 00:11:53.271 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/count GET
+2025-01-26 00:11:53.271 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.count
+2025-01-26 00:11:53.271 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-26 00:11:53.271 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: []
+2025-01-26 00:11:53.507 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==>  Preparing: select count(*) from member
+2025-01-26 00:11:53.507 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m ==> Parameters: 
+2025-01-26 00:11:53.765 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==    Columns: count(*)
+2025-01-26 00:11:53.766 TRACE c.java.member.mapper.MemberMapper.countByExample  :141  [32m                  [0;39m <==        Row: 2
+2025-01-26 00:11:53.769 DEBUG c.java.member.mapper.MemberMapper.countByExample  :135  [32m                  [0;39m <==      Total: 1
+2025-01-26 00:11:53.772 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: 2
+2025-01-26 00:11:53.772 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：502 ms -------------
+2025-01-26 00:26:39.461 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-01-26 00:26:39.461 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/register POST
+2025-01-26 00:26:39.461 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.register
+2025-01-26 00:26:39.461 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
+2025-01-26 00:26:39.462 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: ["1234"]
+2025-01-26 00:26:39.673 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2025-01-26 00:26:39.674 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==> Parameters: 1737869199462(Long), 1234(String)
+2025-01-26 00:26:40.166 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1234' for key 'member.mobile_unique'
+### The error may exist in file [D:\Java_Project\train\member\target\classes\mapper\MemberMapper.xml]
+### The error may involve com.java.member.mapper.MemberMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: insert into member (id, mobile)     values (?, ?)
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1234' for key 'member.mobile_unique'
+; Duplicate entry '1234' for key 'member.mobile_unique'] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1234' for key 'member.mobile_unique'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:58)
+	at jdk.proxy3/jdk.proxy3.$Proxy93.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:48)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:75)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy73.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy74.insert(Unknown Source)
+	at com.java.member.service.MemberService.register(MemberService.java:24)
+	at com.java.member.controller.MemberController.register(MemberController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.java.train.common.aspect.LogAspect.doAround(LogAspect.java:79)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:623)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:752)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.java.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-01-26 00:27:10.050 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-01-26 00:27:10.054 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
