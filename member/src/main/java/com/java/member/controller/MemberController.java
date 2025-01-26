@@ -28,7 +28,7 @@ public class MemberController {
         long register  = memberService.register(mobile);
 //        CommonResp<Long> commonResp = new CommonResp<>();
 //        commonResp.setContent(register);
-        return new CommonResp(register);
+        return new CommonResp<>(register);
 
     }
 }
