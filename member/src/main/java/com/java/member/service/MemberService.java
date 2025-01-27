@@ -6,6 +6,8 @@ import com.java.member.domain.Member;
 import com.java.member.domain.MemberExample;
 import com.java.member.mapper.MemberMapper;
 import com.java.member.req.MemberRegisterReq;
+import com.java.train.common.exception.BusinessException;
+import com.java.train.common.exception.BusinessExceptionEnum;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 
@@ -29,7 +31,7 @@ public class MemberService {
 
         if(CollUtil.isNotEmpty(list)) {
 //            return list.get(0).getId();
-            throw new RuntimeException("Mobile has been register");
+            throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
 
         }
 
