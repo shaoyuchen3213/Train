@@ -1,6 +1,11 @@
 package com.java.member.req;
 
+import jakarta.validation.constraints.NotBlank;
+
+
 public class MemberRegisterReq {
+
+    @NotBlank(message = "Phone number can't be empty")
     public String getMobile() {
         return mobile;
     }
