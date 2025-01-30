@@ -6,6 +6,7 @@ import com.java.member.domain.Member;
 import com.java.member.domain.MemberExample;
 import com.java.member.mapper.MemberMapper;
 import com.java.member.req.MemberRegisterReq;
+import com.java.train.common.Util.SnowUtil;
 import com.java.train.common.exception.BusinessException;
 import com.java.train.common.exception.BusinessExceptionEnum;
 import jakarta.annotation.Resource;
@@ -36,7 +37,7 @@ public class MemberService {
         }
 
         Member member = new Member();
-        member.setId(System.currentTimeMillis());
+        member.setId(SnowUtil.getSnowflakeNextId());
         member.setMobile(mobile);
 
 
