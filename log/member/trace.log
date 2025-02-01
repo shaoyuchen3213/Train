@@ -45,3 +45,5 @@
 2025-01-30 01:24:41.733 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m <==    Updates: 1
 2025-01-30 01:24:41.734 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"content":1884850200590290944,"success":true}
 2025-01-30 01:24:41.734 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：870 ms -------------
+2025-01-30 13:53:39.397 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-01-30 13:53:39.413 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
