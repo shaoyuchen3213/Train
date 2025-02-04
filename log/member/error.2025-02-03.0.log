@@ -1,0 +1,4 @@
+2025-02-03 14:35:57.490 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-03 14:38:54.477 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-03 14:39:09.287 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-03 14:39:22.623 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid

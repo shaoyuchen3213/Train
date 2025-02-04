@@ -1,4 +1,15 @@
-2025-02-03 14:35:57.490 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
-2025-02-03 14:38:54.477 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
-2025-02-03 14:39:09.287 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
-2025-02-03 14:39:22.623 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-04 12:04:39.128 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-04 12:05:14.751 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:05:25.719 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:05:56.641 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:17:48.030 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-04 12:38:15.030 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:40:39.513 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:44:25.496 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:51:52.053 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:52:21.892 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Please enter one time code
+2025-02-04 12:53:26.769 ERROR c.j.t.common.controller.ControllerExceptionHandler:50   [32m                  [0;39m 业务异常：Mobile already registered
+2025-02-04 13:33:35.353 ERROR c.j.t.common.controller.ControllerExceptionHandler:50   [32m                  [0;39m 业务异常：Get One time code first
+2025-02-04 13:33:57.667 ERROR c.j.t.common.controller.ControllerExceptionHandler:50   [32m                  [0;39m 业务异常：Get One time code first
+2025-02-04 13:34:40.286 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-04 13:34:46.407 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid

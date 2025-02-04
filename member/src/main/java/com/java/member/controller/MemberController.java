@@ -1,8 +1,10 @@
 package com.java.member.controller;
 
 
+import com.java.member.req.MemberLoginReq;
 import com.java.member.req.MemberRegisterReq;
 import com.java.member.req.MemberSendCodeReq;
+import com.java.member.resp.MemberLoginResp;
 import com.java.member.service.MemberService;
 import com.java.train.common.resp.CommonResp;
 import jakarta.annotation.Resource;
@@ -39,5 +41,10 @@ public class MemberController {
         memberService.SendCode(req);
         return new CommonResp<>();
 
+    }
+    @PostMapping("/login")
+    public CommonResp<MemberLoginResp> login(@Valid MemberLoginReq req) {
+        MemberLoginResp resp = memberService.login(req);
+        return new CommonResp<>(resp);
     }
 }
