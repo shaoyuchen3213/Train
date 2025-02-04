@@ -20,3 +20,4 @@
 2025-02-03 14:31:24.834 INFO  com.java.gateway.GateApplication                  :57   [32m                  [0;39m Started GateApplication in 2.765 seconds (process running for 3.66)
 2025-02-03 14:31:24.837 INFO  com.java.gateway.GateApplication                  :20   [32m                  [0;39m Success Start!
 2025-02-03 14:31:24.837 INFO  com.java.gateway.GateApplication                  :21   [32m                  [0;39m Listening on 	http://127.0.0.1:8000
+2025-02-03 17:44:27.054 INFO  reactor.netty.http.server.AccessLog               :279  [32m                  [0;39m 192.168.1.1 - - [03/Feb/2025:17:44:26 -0500] "GET / HTTP/1.1" 404 129 149
