@@ -13,3 +13,5 @@
 2025-02-04 13:33:57.667 ERROR c.j.t.common.controller.ControllerExceptionHandler:50   [32m                  [0;39m 业务异常：Get One time code first
 2025-02-04 13:34:40.286 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
 2025-02-04 13:34:46.407 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：phone number invalid
+2025-02-04 13:37:42.543 ERROR c.j.t.common.controller.ControllerExceptionHandler:50   [32m                  [0;39m 业务异常：Mobile already registered
+2025-02-04 23:32:28.730 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
