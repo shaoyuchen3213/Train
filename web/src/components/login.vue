@@ -65,12 +65,17 @@ export default defineComponent({
       }).then(response => {
         console.log(response);
       })
+    const login = () => {  axios.post("http://localhost:8002/member/member/login", {
+        mobile: loginForm.mobile,
+        code: loginForm.code
+      })
     };
     return {
       loginForm,
       onFinish,
       onFinishFailed,
       sendCode,
+      login,
     };
   },
 });

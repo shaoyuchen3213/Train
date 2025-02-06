@@ -71,7 +71,7 @@ public class MemberService {
         }
         //otp
         String code = RandomUtil.randomString(4);
-        LOG.info("One time code send:{}", code);
+        LOG.info("One time code send:{}", "8888");
 
         //Save Message record, mobile, otp, expiration, used?
         LOG.info("save OTC");
