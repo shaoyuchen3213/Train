@@ -1,4 +1,2 @@
-2025-02-06 13:21:53.609 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 13:22:21.348 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 14:05:09.769 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 14:12:28.557 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
+2025-02-07 01:34:27.455 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
+2025-02-07 01:34:49.847 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty

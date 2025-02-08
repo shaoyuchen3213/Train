@@ -1,98 +1,13 @@
-2025-02-06 13:21:53.477 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-06 13:21:53.480 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-02-06 13:21:53.481 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-02-06 13:21:53.609 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 13:22:21.348 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 14:05:09.769 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 14:12:28.557 ERROR c.j.t.common.controller.ControllerExceptionHandler:65   [32m                  [0;39m validation error：Phone number can't be empty
-2025-02-06 14:13:35.358 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-02-06 14:13:35.358 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/send-code POST
-2025-02-06 14:13:35.359 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.sendCode
-2025-02-06 14:13:35.359 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
-2025-02-06 14:13:35.423 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"mobile":"17182196246"}]
-2025-02-06 14:13:35.486 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2025-02-06 14:13:47.685 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@558dbca2
-2025-02-06 14:13:47.689 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2025-02-06 14:13:47.696 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-02-06 14:13:47.715 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182196246(String)
-2025-02-06 14:13:47.939 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
-2025-02-06 14:13:47.940 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1886846624760729600, 17182196246
-2025-02-06 14:13:47.941 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
-2025-02-06 14:13:47.950 INFO  com.java.member.service.MemberService             :70   [32m                  [0;39m Already register
-2025-02-06 14:13:47.954 INFO  com.java.member.service.MemberService             :74   [32m                  [0;39m One time code send:8kv1
-2025-02-06 14:13:47.954 INFO  com.java.member.service.MemberService             :77   [32m                  [0;39m save OTC
-2025-02-06 14:13:47.955 INFO  com.java.member.service.MemberService             :79   [32m                  [0;39m send otc
-2025-02-06 14:13:47.957 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"success":true}
-2025-02-06 14:13:47.958 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：12603 ms -------------
-2025-02-06 14:26:17.381 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2025-02-06 14:26:17.386 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2025-02-06 14:26:20.231 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2025-02-06 14:26:20.285 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 295260 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
-2025-02-06 14:26:20.286 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2025-02-06 14:26:21.132 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0b7e6759-dcc9-32ec-80cf-617c9a51bff2
-2025-02-06 14:26:21.643 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
-2025-02-06 14:26:21.650 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
-2025-02-06 14:26:21.651 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2025-02-06 14:26:21.651 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
-2025-02-06 14:26:21.753 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2025-02-06 14:26:21.754 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1417 ms
-2025-02-06 14:26:22.750 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
-2025-02-06 14:26:22.767 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
-2025-02-06 14:26:22.923 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 3.32 seconds (process running for 4.063)
-2025-02-06 14:26:22.926 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
-2025-02-06 14:26:22.926 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
-2025-02-06 14:27:05.806 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-02-06 14:27:05.806 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2025-02-06 14:27:05.807 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
-2025-02-06 14:27:05.947 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-02-06 14:27:05.948 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/send-code POST
-2025-02-06 14:27:05.949 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.sendCode
-2025-02-06 14:27:05.949 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 127.0.0.1
-2025-02-06 14:27:06.010 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"mobile":"17182196246"}]
-2025-02-06 14:27:06.060 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2025-02-06 14:27:17.222 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c6b378
-2025-02-06 14:27:17.225 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2025-02-06 14:27:17.233 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-02-06 14:27:17.251 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182196246(String)
-2025-02-06 14:27:17.468 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
-2025-02-06 14:27:17.469 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1886846624760729600, 17182196246
-2025-02-06 14:27:17.470 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
-2025-02-06 14:27:17.477 INFO  com.java.member.service.MemberService             :70   [32m                  [0;39m Already register
-2025-02-06 14:27:17.480 INFO  com.java.member.service.MemberService             :74   [32m                  [0;39m One time code send:8888
-2025-02-06 14:27:17.480 INFO  com.java.member.service.MemberService             :77   [32m                  [0;39m save OTC
-2025-02-06 14:27:17.481 INFO  com.java.member.service.MemberService             :79   [32m                  [0;39m send otc
-2025-02-06 14:27:17.484 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"success":true}
-2025-02-06 14:27:17.484 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：11538 ms -------------
-2025-02-06 14:27:56.398 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-02-06 14:27:56.399 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/send-code POST
-2025-02-06 14:27:56.399 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.sendCode
-2025-02-06 14:27:56.399 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2025-02-06 14:27:56.400 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"mobile":"17182569875"}]
-2025-02-06 14:27:56.600 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-02-06 14:27:56.600 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
-2025-02-06 14:27:56.801 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 0
-2025-02-06 14:27:56.802 INFO  com.java.member.service.MemberService             :64   [32m                  [0;39m mobile no exist
-2025-02-06 14:27:56.840 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
-2025-02-06 14:27:56.841 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m ==> Parameters: 1887584029226700800(Long), 17182569875(String)
-2025-02-06 14:27:57.269 DEBUG com.java.member.mapper.MemberMapper.insert        :135  [32m                  [0;39m <==    Updates: 1
-2025-02-06 14:27:57.269 INFO  com.java.member.service.MemberService             :74   [32m                  [0;39m One time code send:8888
-2025-02-06 14:27:57.269 INFO  com.java.member.service.MemberService             :77   [32m                  [0;39m save OTC
-2025-02-06 14:27:57.269 INFO  com.java.member.service.MemberService             :79   [32m                  [0;39m send otc
-2025-02-06 14:27:57.270 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"success":true}
-2025-02-06 14:27:57.270 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：872 ms -------------
-2025-02-06 14:47:07.904 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
-2025-02-06 14:47:07.905 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/send-code POST
-2025-02-06 14:47:07.905 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.sendCode
-2025-02-06 14:47:07.905 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
-2025-02-06 14:47:07.905 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"mobile":"17182569875"}]
-2025-02-06 14:47:08.110 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
-2025-02-06 14:47:08.111 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
-2025-02-06 14:47:08.312 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
-2025-02-06 14:47:08.313 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1887584029226700800, 17182569875
-2025-02-06 14:47:08.313 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
-2025-02-06 14:47:08.313 INFO  com.java.member.service.MemberService             :70   [32m                  [0;39m Already register
-2025-02-06 14:47:08.313 INFO  com.java.member.service.MemberService             :74   [32m                  [0;39m One time code send:8888
-2025-02-06 14:47:08.313 INFO  com.java.member.service.MemberService             :77   [32m                  [0;39m save OTC
-2025-02-06 14:47:08.314 INFO  com.java.member.service.MemberService             :79   [32m                  [0;39m send otc
-2025-02-06 14:47:08.314 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"success":true}
-2025-02-06 14:47:08.314 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：410 ms -------------
+2025-02-08 17:18:39.853 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-02-08 17:18:39.866 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/login POST
+2025-02-08 17:18:39.867 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.login
+2025-02-08 17:18:39.867 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2025-02-08 17:18:39.869 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"17182569875"}]
+2025-02-08 17:18:40.073 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-08 17:18:40.076 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
+2025-02-08 17:18:40.275 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
+2025-02-08 17:18:40.275 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1887584029226700800, 17182569875
+2025-02-08 17:18:40.276 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
+2025-02-08 17:18:40.277 INFO  com.java.member.service.MemberService             :92   [32m                  [0;39m 8888
+2025-02-08 17:18:40.279 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"content":{"id":1887584029226700800,"mobile":"17182569875"},"success":true}
+2025-02-08 17:18:40.279 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：426 ms -------------

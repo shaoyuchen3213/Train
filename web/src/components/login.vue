@@ -1,7 +1,7 @@
 <template>
   <a-row class="login">
     <a-col :span="8" :offset="8" class="login-main">
-      <h1 style="text-align: center"><shop-filled />&nbsp;Dora Train Reservation</h1>
+      <h1 style="text-align: center">&nbsp;Dora Train Reservation</h1>
       <a-form
           :model="loginForm"
           name="basic"
@@ -44,6 +44,7 @@
 <script>
 import { defineComponent, reactive } from 'vue';
 import axios from 'axios';
+import {notification} from "ant-design-vue";
 export default defineComponent({
   name: "login-view",
   setup() {
@@ -64,12 +65,30 @@ export default defineComponent({
         mobile: loginForm.mobile
       }).then(response => {
         console.log(response);
+        let data = response.data;
+        if(data.success) {
+          notification.success({description:"Code have been sent"});
+        } else {
+          notification.error({description:data.message});
+        }
       })
-    const login = () => {  axios.post("http://localhost:8002/member/member/login", {
+    }
+    const login = () => {
+      axios.post("http://localhost:8002/member/member/login", {
         mobile: loginForm.mobile,
         code: loginForm.code
+      }).then(response => {
+
+        console.log(response);
+        let data = response.data;
+        if(data.success) {
+          notification.success({description:"Successful Login"});
+          console.log(response)
+        } else{
+          notification.error({description:data.error});
+        }
       })
-    };
+    }
     return {
       loginForm,
       onFinish,
