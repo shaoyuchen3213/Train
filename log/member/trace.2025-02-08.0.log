@@ -1,0 +1,15 @@
+2025-02-08 17:18:39.853 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-02-08 17:18:39.866 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/login POST
+2025-02-08 17:18:39.867 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.login
+2025-02-08 17:18:39.867 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2025-02-08 17:18:39.869 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"17182569875"}]
+2025-02-08 17:18:40.073 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-08 17:18:40.076 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
+2025-02-08 17:18:40.275 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
+2025-02-08 17:18:40.275 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1887584029226700800, 17182569875
+2025-02-08 17:18:40.276 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
+2025-02-08 17:18:40.277 INFO  com.java.member.service.MemberService             :92   [32m                  [0;39m 8888
+2025-02-08 17:18:40.279 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"content":{"id":1887584029226700800,"mobile":"17182569875"},"success":true}
+2025-02-08 17:18:40.279 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：426 ms -------------
+2025-02-08 18:05:47.864 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-02-08 18:05:47.872 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

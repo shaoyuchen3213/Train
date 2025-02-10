@@ -74,3 +74,5 @@
 2025-02-10 15:20:29.115 INFO  com.java.member.service.MemberService             :92   [32m                  [0;39m 8888
 2025-02-10 15:20:29.115 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"content":{"id":1887584029226700800,"mobile":"17182569875"},"success":true}
 2025-02-10 15:20:29.115 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：432 ms -------------
+2025-02-10 16:44:41.134 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2025-02-10 16:44:41.136 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
