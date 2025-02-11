@@ -76,3 +76,53 @@
 2025-02-10 15:20:29.115 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：432 ms -------------
 2025-02-10 16:44:41.134 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2025-02-10 16:44:41.136 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2025-02-10 17:10:28.014 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2025-02-10 17:10:28.048 INFO  com.java.member.config.MemberApplication          :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.2 with PID 3224 (D:\Java_Project\train\member\target\classes started by ShaoyuChen in D:\Java_Project\train)
+2025-02-10 17:10:28.049 INFO  com.java.member.config.MemberApplication          :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2025-02-10 17:10:28.699 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=0b7e6759-dcc9-32ec-80cf-617c9a51bff2
+2025-02-10 17:10:29.134 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8002 (http)
+2025-02-10 17:10:29.142 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2025-02-10 17:10:29.142 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2025-02-10 17:10:29.143 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2025-02-10 17:10:29.237 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2025-02-10 17:10:29.238 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1143 ms
+2025-02-10 17:10:30.053 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2025-02-10 17:10:30.071 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8002 (http) with context path '/member'
+2025-02-10 17:10:30.209 INFO  com.java.member.config.MemberApplication          :57   [32m                  [0;39m Started MemberApplication in 2.766 seconds (process running for 3.412)
+2025-02-10 17:10:30.211 INFO  com.java.member.config.MemberApplication          :23   [32m                  [0;39m Success Start!
+2025-02-10 17:10:30.212 INFO  com.java.member.config.MemberApplication          :24   [32m                  [0;39m Listening on 	http://127.0.0.1:8002/member
+2025-02-10 17:13:05.237 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-02-10 17:13:05.238 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2025-02-10 17:13:05.239 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2025-02-10 17:13:05.376 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-02-10 17:13:05.378 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/send-code POST
+2025-02-10 17:13:05.378 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.sendCode
+2025-02-10 17:13:05.378 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2025-02-10 17:13:05.424 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"mobile":"17182569875"}]
+2025-02-10 17:13:05.470 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2025-02-10 17:13:16.424 INFO  com.java.train.common.aspect.LogAspect            :49   [32m                  [0;39m ------------- 开始 -------------
+2025-02-10 17:13:16.425 INFO  com.java.train.common.aspect.LogAspect            :50   [32m                  [0;39m 请求地址: http://localhost:8002/member/member/login POST
+2025-02-10 17:13:16.425 INFO  com.java.train.common.aspect.LogAspect            :51   [32m                  [0;39m 类名方法: com.java.member.controller.MemberController.login
+2025-02-10 17:13:16.425 INFO  com.java.train.common.aspect.LogAspect            :52   [32m                  [0;39m 远程地址: 0:0:0:0:0:0:0:1
+2025-02-10 17:13:16.427 INFO  com.java.train.common.aspect.LogAspect            :73   [32m                  [0;39m 请求参数: [{"code":"8888","mobile":"17182569875"}]
+2025-02-10 17:13:18.609 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7bc50fd2
+2025-02-10 17:13:18.612 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2025-02-10 17:13:18.619 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-10 17:13:18.635 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
+2025-02-10 17:13:18.845 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
+2025-02-10 17:13:18.845 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1887584029226700800, 17182569875
+2025-02-10 17:13:18.846 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
+2025-02-10 17:13:18.851 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2025-02-10 17:13:18.851 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m ==> Parameters: 17182569875(String)
+2025-02-10 17:13:18.853 INFO  com.java.member.service.MemberService             :70   [32m                  [0;39m Already register
+2025-02-10 17:13:18.856 INFO  com.java.member.service.MemberService             :74   [32m                  [0;39m One time code send:8888
+2025-02-10 17:13:18.856 INFO  com.java.member.service.MemberService             :77   [32m                  [0;39m save OTC
+2025-02-10 17:13:18.856 INFO  com.java.member.service.MemberService             :79   [32m                  [0;39m send otc
+2025-02-10 17:13:18.858 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"success":true}
+2025-02-10 17:13:18.859 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：13484 ms -------------
+2025-02-10 17:13:19.050 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==    Columns: id, mobile
+2025-02-10 17:13:19.050 TRACE c.java.member.mapper.MemberMapper.selectByExample :141  [32m                  [0;39m <==        Row: 1887584029226700800, 17182569875
+2025-02-10 17:13:19.050 DEBUG c.java.member.mapper.MemberMapper.selectByExample :135  [32m                  [0;39m <==      Total: 1
+2025-02-10 17:13:19.051 INFO  com.java.member.service.MemberService             :92   [32m                  [0;39m 8888
+2025-02-10 17:13:19.085 INFO  com.java.train.common.aspect.LogAspect            :85   [32m                  [0;39m 返回结果: {"content":{"id":1887584029226700800,"mobile":"17182569875"},"success":true}
+2025-02-10 17:13:19.085 INFO  com.java.train.common.aspect.LogAspect            :86   [32m                  [0;39m ------------- 结束 耗时：2661 ms -------------
