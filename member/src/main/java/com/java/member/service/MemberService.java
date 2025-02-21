@@ -12,6 +12,7 @@ import com.java.member.req.MemberLoginReq;
 import com.java.member.req.MemberRegisterReq;
 import com.java.member.req.MemberSendCodeReq;
 import com.java.member.resp.MemberLoginResp;
+import com.java.train.common.Util.JwtUtil;
 import com.java.train.common.Util.SnowUtil;
 import com.java.train.common.exception.BusinessException;
 import com.java.train.common.exception.BusinessExceptionEnum;
@@ -84,7 +85,7 @@ public class MemberService {
         String mobile = req.getMobile();
         String code = req.getCode();
         Member memberDB = selectByMobile(mobile);
-
+        Long id = req.getId();
 
         if(ObjectUtil.isNull(memberDB)) {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_NOTEXIST);
@@ -94,7 +95,15 @@ public class MemberService {
         if(!"8888".equals(code)) {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_INVALID);
         }
-        return BeanUtil.copyProperties(memberDB, MemberLoginResp.class);
+
+        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(memberDB, MemberLoginResp.class);
+//        Map<String, Object> map =  BeanUtil.beanToMap(memberLoginResp);
+
+//        String key = "Dora12312";
+        String token = JwtUtil.createToken(id, mobile);
+
+        memberLoginResp.setToken(token);
+        return memberLoginResp;
     }
 
 

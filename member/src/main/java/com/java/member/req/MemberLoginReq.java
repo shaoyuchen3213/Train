@@ -13,6 +13,15 @@ public class MemberLoginReq {
         return mobile;
     }
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    private Long id;
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
@@ -26,6 +35,7 @@ public class MemberLoginReq {
     public String toString() {
         final StringBuffer sb = new StringBuffer("MemberLoginReq{");
         sb.append("mobile='").append(mobile).append('\'');
+        sb.append(", id='").append(id).append('\'');
         sb.append(", code='").append(code).append('\'');
         sb.append('}');
         return sb.toString();

@@ -5,6 +5,15 @@ public class MemberLoginResp {
 
     private String mobile;
 
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    private String token;
     public String getCode() {
         return code;
     }
@@ -36,6 +45,7 @@ public class MemberLoginResp {
         final StringBuffer sb = new StringBuffer("MemberLoginResp{");
         sb.append("id=").append(id);
         sb.append(", mobile='").append(mobile).append('\'');
+        sb.append(", token='").append(token).append('\'');
         sb.append(", code='").append(code).append('\'');
         sb.append('}');
         return sb.toString();
